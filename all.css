@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background: url('typing.gif');
+}
+
+.wrapper
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    background:chocolate;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo
+{
+    width:30%;
+    float:left;
+    line-height: 100px;
+
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodleletitling;
+    color:cornsilk;
+    letter-spacing: 5px;
+}
+
+nav{
+    float:right;
+    line-height: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodleletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: cornsilk;
+}
+
+.welcome
+{
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 100%;
+    background-image:url('download\ \(1\).png');
+    background-position: center center;
+}
+.welcome h2
+{
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: cornsilk;
+}
+
+.intro
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background:darkorange;
+    height: 1500px;
+}
+.intro h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.intro p{
+padding: 2% 0;
+font-family: merienda;
+line-height: 30px;
+}
+
+/*About*/
+
+.logo1
+{
+    width:30%;
+    float:left;
+    line-height: 100px;
+
+}
+.logo1 a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodleletitling;
+    color:cornsilk;
+    letter-spacing: 5px;
+}
+
+nav{
+    float:right;
+    line-height: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodleletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: cornsilk;
+}
+
+
+.who
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background:darkorange;
+    height: 1500px;
+}
+.who h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.who p{
+padding: 2% 0;
+font-family: merienda;
+line-height: 30px;
+}
+
+/*Portfolio*/
+
+logo
+{
+    width:30%;
+    float:left;
+    line-height: 100px;
+
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodleletitling;
+    color:cornsilk;
+    letter-spacing: 5px;
+}
+
+nav{
+    float:right;
+    line-height: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodleletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: cornsilk;
+}
+
+
+.skills
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background:darkorange;
+    height: 1500px;
+}
+.skills h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.skills p{
+padding: 2% 0;
+font-family: merienda;
+line-height: 30px;
+}
+
+/*Contact*/
+
+body {
+    background-color: darkorange;
+    font-family: bignoodleletitling;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wrapper2{
+    height: 360px;
+    margin: 10% auto 0;
+    width: 600px;
+    position: relative;
+    perspective: 800px;
+
+}
+
+.wrapper2.box{
+    position: abosolute;
+    transition: transform 0.5;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+
+}
+
+.wrapper2.box.front,
+.wrapper2.box.back{
+    display: block;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+
+.wrapper2.box.front{
+    background-color: sandybrown;
+    box-shadow: 0 2px 15px -2px rgba (0,0,0,0.6);
+
+}
+
+.front h2{
+    font-family: bignoodleletitling;
+    font-size: 45px;
+    text-align:center;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+.logo
+{
+    width:30%;
+    float:left;
+    line-height: 100px;
+
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodleletitling;
+    color:cornsilk;
+    letter-spacing: 5px;
+}
+
+nav{
+    float:right;
+    line-height: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    font-family: bignoodleletitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: cornsilk;
+}
+
+
+.media
+{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background:darkorange;
+    height: 1500px;
+}
+.media h2{
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0;
+}
+
+.media p{
+padding: 2% 0;
+font-family: merienda;
+line-height: 30px;
+}
+
+
+.wrapper3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.wrapper3 span{
+    font-family: bignoodleletitling;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    display: inline-block;
+    color: yellow;
+    opacity: 50%;
+    transform: (-155px,0) scale(0.4);
+    animation: animate .5s forwards;
+
+}
+
+.wrapper3 span:nth-of-type(2)
+{
+    animation-delay: 0.05;
+}
+
+.wrapper3 span:nth-of-type(2)
+{
+    animation-delay: 0.05s;
+}
+
+.wrapper3 span:nth-of-type(3)
+{
+    animation-delay: 0.1s;
+}
+
+.wrapper3 span:nth-of-type(4)
+{
+    animation-delay: 0.15s;
+}
+
+.wrapper3 span:nth-of-type(5)
+{
+    animation-delay: 0.2s;
+}
+
+.wrapper3 span:nth-of-type(6)
+{
+    animation-delay: 0.25s;
+}
+
+.wrapper3 span:nth-of-type(7)
+{
+    animation-delay: 0.30s;
+}
+
+@keyframes animate {
+    40%{
+    transform: translate(50px,0) scale(.7);
+    opacity: 1;
+    color: yellow;
+    }
+
+    60%{
+        color: chocolate;
+    }
+
+    80%{
+        transform: translate(0) scale(2);
+        opacity: 0;
+        
+    }
+    100%{
+        transform: translate(0) scale(1);
+        opacity: 1;
+    }
+    
+}
